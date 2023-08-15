@@ -1,7 +1,8 @@
 package Herança
 
 open class ItemMultimidia(
-    val titulo: String, val duracao: Int
+    val titulo: String,
+    val duracao: Int
 ) {
     open fun reproduzir() {
         println("Reproduzindo $titulo")
